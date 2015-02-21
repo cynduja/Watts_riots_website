@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Autoplay video BY the one and only Duj! -->
+
+  <head>
+    <title>Watts rebellion revisited on its 50th anniversary</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="css/autoplay.css" rel="stylesheet" type="text/css">
+
+  </head>
+  
+<body>
+<video autoplay id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="video/vid1.mp4" type="video/mp4">
+<source src="video/vid1.webm" type="video/webm">
+</video>
+<div id="wattsmainentry">
+<h1>Watts Riots Revisited</h1>
+
+<p>On a hot summer evening in Watts, Marquette Frye, an African-American man, was pulled over by a white California Highway Patrol officer, who suspected Frye of driving under the influence of alcohol. A crowd gathered and tension between police officers and people escalated to a violent outburst. </p>
+
+<p>For the next six days, violence and mayhem led to the loss of 34 lives, 1032 injuries, 3438 arrests, and over $40 million in property damage. The incident, called the "Watts rebellion" by many, was one of the largest urban revolutions of the civil rights era. </p>
+
+<p>This project aims to examine the events leading up to the rebellion and its aftermath using visual web techniques for the upcoming 50th anniversary and explore what has changed in the community since then. </p>
+
+<button id = "pause" class = "frontbutton">Pause</button>
+<button id = "mute" class = "frontbutton">Mute</button>
+</div>
+<a href = homepage.html> <button id = "skip" class = "frontbutton">Skip intro </button> </a>
+
+<!-- JAVASCRIPT -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+   <script src="js/autoplayvid.js"></script>
+   
+</body>
+</html>
