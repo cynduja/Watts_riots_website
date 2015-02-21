@@ -1,0 +1,434 @@
+/* style.css 
+   Author: Mostly Jenna
+   Date: 
+ 
+*/
+
+/* PARALLAX STYLING */
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #000000;
+	
+}
+
+section {
+	width: 100%;
+
+	
+}
+
+section h2 {
+	margin-top: 0;
+	margin-left: 20px;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 20px 0px 0px 20px;
+	
+}
+
+
+.main {
+	overflow-x: hidden;
+}
+
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/* first parallax slide */
+#slide-1 .bcg {
+	background-image:url('../img/burningbuildings.jpg');
+	height: 700px;
+	
+}
+
+/* second parallax slide */
+#slide-2 .bcg {background: none; 
+	background-color: #010101; 
+	height: auto; 
+	text-align: center;
+}
+
+#slide2header {
+	margin-top: 20px;
+	width: auto;
+	
+}
+
+/* third parallax slide */
+#slide-3 .bcg {
+	background-image:url('../img/103rd.jpg');
+	height: 640px;
+}
+
+/*.thirdslide {
+	float: right;
+	
+}*/
+
+/* fourth parallax slide */ 
+#slide-4 .bcg {
+	background-image:url('../img/towers.jpg');
+}
+
+/* curtain */
+.curtainContainer {width: 100%; height: 100%; position: relative;}
+.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
+
+/* fifth parallax slide */
+#slide-5 {
+	position: relative;
+	height: 900px;
+}
+
+#slide-5 .bcg {background-image:url('../img/map4.jpg')}
+#slide-5 .bcg2 {background-image:url('../img/towers.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1; }
+#slide-5 .bcg3 {background: none; background-color: #010101; position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2;}
+
+
+
+
+
+	
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hscontent {
+	max-width: 450px;
+	margin: -150px auto 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	text-align: center;
+}
+
+	.hscontent h2, .copy h2 {
+		color: #ffffff;
+		font-size: 45px;
+		line-height: 48px;
+		margin-bottom: 12px;
+		text-align: center;
+
+	}
+	
+	.hscontent p {
+		width: 400px;
+		margin: 0 auto;
+		
+	}
+	
+	.hscontent a {
+		color: #b2b2b2;
+		text-decoration: underline;
+	}
+	
+	.bgblack {
+		background-color: rgba(0,0,0,0.75)
+		padding: 3px 10px
+	}
+	
+p.homepage {
+	font-family: "Helvetica", sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	width: 40%;
+	margin-left: 45px;
+	
+}
+
+#slide-1 .homepage {
+	width: 40%;
+	margin-left: 60px;
+}
+
+#slide-2 .homepage {
+	width: 40%;
+	text-align: left;
+	vertical-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	padding: 0px 0px 20px 0px;
+}
+	
+
+#caption {
+	font-style: italic;
+	font-size: 12px;
+	width: 25%;
+	
+	
+}
+
+#closingtext {
+	margin-top: 100px;
+}
+
+#demomap {
+	
+	
+	z-index: 3;
+}
+	
+.bgBlack {
+	background-color: rgba(0,0,0,0.75);
+	padding: 3px 10px;
+}
+	
+
+
+/* end parallax styling */
+
+#container {
+	/*placeholder bg image*/
+	background-image: url('../img/demobackground.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: auto;
+	height: 100%;
+	opacity: 5.0;
+	padding: 0px 0px 50px 0px;
+	border: 1px solid transparent;
+}
+
+#maincontentcontainer {
+	height: 800px;
+	width:100%;
+}
+
+#titleheader {
+	height: 2000px;
+	width: 1024px;
+	margin: 100px 0px 0px 50px;
+	
+}
+
+h1 {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 30px 0px 30px 30px;
+}
+
+h3 {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 30px 0px 30px 40px;
+}
+
+#headertext{
+	 padding-left:50px; 
+	 font-family: "Helvetica", "Arial", sans-serif;
+	 font-size: 80px;
+	 font-weight: bold;
+	 color: black; 
+ }
+ 
+ #headertext2 {
+	 padding-left:150px;	
+	 font-family: "Helvetica", "Arial", sans-serif;
+	 font-size: 50px;
+	 font-weight: bold;
+	 color: white; 
+ }
+ 
+#videocontainer {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: -100px
+	border: 5px solid black; 
+	width: 640px;
+}
+
+/* MENU STYLING */
+
+#menucontainer {
+	position: fixed; 
+	width: 600px;
+	height: 80px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	bottom: -30px;
+	display: block;
+	z-index: 4;
+	
+	
+}
+
+#menulist {
+	margin: 0;
+	padding: 0;
+	bottom: 0px;
+	
+}
+
+.menuitem {
+	width: 100px;
+	height: 50px;
+	float: left;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+	background-color: white;
+	opacity: 0.4;
+	position: relative;
+
+}
+
+a {
+	color: #black;
+	text-decoration: none;
+}
+
+p {
+	padding: 10px 5px;
+	color: black;
+}
+
+.subtext {
+	padding-top: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+.glyphicon {
+	padding: 15px;
+}
+
+/* end menu styling */
+
+.btn {
+	margin: 0px 50px;
+	padding: 10px 10px;
+	background-color: transparent;
+}
+
+
+.btn-default {
+	background-color: transparent;
+	outline: none;
+
+}
+
+
+#timelineheader{
+	width: 800px;
+	height: auto;
+}
+
+#timeline {
+	margin: 50px 0px 0px 40px;
+	height: 1000px;
+}
+
+/* STORIES STYLING */
+
+.stories {
+	width: 250px;
+	height: 250px;
+	float: left;
+
+}
+
+#storieswrapper {
+	width: 790px;
+	height: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 20px solid black;
+	
+} 
+
+.storypic {
+	height: 250px;
+	width: 250px;
+}
+
+#introvideo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#timelineframe {
+	width: 80%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.storylist {
+	float: right;
+	width: 790px;
+	padding: 0px -10px 0px 0px;
+	
+	
+}
+
+.storycaption {
+	position: absolute; 
+	width: 250px;
+	height: auto;
+	margin-top: 138px;
+	background: black;
+	display: none;
+	opacity: 0.7;
+}
+
+.storytitle {
+	margin-left: 20px;
+	color: white;
+}
+
+.profile {
+	width: 150px;
+}
+
+.character {
+	margin-left: 20px;
+	font-style: italic;
+	/*font-family: */
+	color: white;
+}
+
+/* end stories styling */
+
+/*map styling */
+
+#mapcontext {
+	color: #FFF;
+	float:left;
+	width: 80%;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+}
+
+body {font-family: "Helvetica", "Arial" sans-serif;}
+
+#photogallery { width:800px; margin: auto; height: 420px; }
+
+
+
+

@@ -1,0 +1,13 @@
+/* style.css 
+   Author: 
+   Date: 
+*/
+
+body { padding: 40px; font-family: "Helvetica", sans-serif; }
+
+h2 { background-color: yellow; padding: 7px; border: 1px solid teal; font-size: 34px; }
+
+#photogallery { width: 800px; margin: auto; }
+
+h3 { color: #796CFF; background-color: #ccc; padding: 7px; border-bottom: 3px solid black; width: 400px; }
+

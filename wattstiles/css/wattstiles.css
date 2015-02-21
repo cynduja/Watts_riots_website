@@ -1,0 +1,21 @@
+
+		
+			body{ background:#fff; }
+				#content{ width:1072px; margin:20px auto; padding:10px 30px; }
+				.clearfix{ display: block; height: 0; clear: both; visibility: hidden; }
+						
+				.details{ margin:15px 20px; }	
+					h4{ font:300 16px 'Helvetica', Helvetica, Arial, sans-serif; line-height:160%; letter-spacing:0.15em; color:#fff; text-shadow:1px 1px 0 rgb(0,0,0); }
+					p{ font:300 12px 'Helvetica', Arial, sans-serif; color:#aaa; text-shadow:1px 1px 0 rgb(0,0,0);}
+					a{ text-decoration:none; font: 300 80px 'Helevetica',sans-serif; color:#000; text-align:left; font-weight:bold; }
+					h1 {font: 300 80px 'Helevetica',sans-serif; color:#000; text-align:left; font-weight:bold;}
+					h2{font: 300 60px 'Helevetica',sans-serif; color:#000; text-align:left; font-weight:bold;}
+					
+			.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+
+		body {
+			/*max-width: 700px; */
+			margin: 0 auto;
+		}

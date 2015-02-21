@@ -1,0 +1,253 @@
+/* style.css 
+   Author: P. Bustamante
+   Date: 
+*/
+
+
+
+/* WAYPOINTS stuff */
+/* these two css pieces position the div that waypoints adds when it hits the specified element. If you don't have this, nothing will happen */
+
+.sticky-wrapper {padding: 0; }
+
+#freezepoint.stuck {position: fixed; top: 0; padding: 0; width:100%}
+
+#freezepoint {border: 10px solid black;}
+
+/*** this styles the drive-through images and content ***/
+/* frame-by-frame */
+
+#framebyframe {width: 100%; padding: 0; margin: 0; z-index: -1;}
+
+.zapframe {height: 27px;}
+
+body {padding: 0; margin: 0; background-color: black; color: #ffffff;}
+
+#hotspot1 {
+	position: absolute;
+	20px;
+	top:50px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:412px;
+	opacity:1;
+
+}
+
+
+#hotspot2 {
+	position: absolute;
+	left:300px;
+	top:150px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:400px;
+	opacity:1;
+
+}
+
+#hotspot3 {
+	position: absolute;
+	left:500px;
+	top:100px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:412px;
+	opacity:1;
+}
+
+
+#hotspot4 {
+	position: absolute;
+	left:500px;
+	top:10px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:400px;
+	opacity:1;
+
+}
+
+#hotspot5 {
+	position: absolute;
+	left:600px;
+	top:100px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:400px;
+	opacity:1;
+
+}
+
+
+#hotspot6 {
+	position: absolute;
+	left:100px;
+	top:100px;
+	visibility: hidden;
+	z-index: 2;
+	width:500px;	
+	height:400px;
+	opacity:1;
+
+}
+
+
+#hotspot7 {
+	position: absolute;
+	left:100px;
+	top:50px;
+	visibility: hidden;
+	z-index: 2;
+	width:700px;	
+	height:600px;
+	opacity:1;
+
+}
+
+.drivethroughcaption {
+	background: #000;
+	width: 500px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	padding: 5px;
+}
+
+.caption {
+	color:#fff;
+	font-size:x-large;
+}
+
+body {font-family: "Helvetica", "Arial", sans-serif;}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	padding: 10px 5px;
+	color: #fff;
+}
+
+
+#headertext{
+	 padding-left:50px; 
+	 font-family: "Helvetica", "Arial", sans-serif;
+	 font-size: 80px;
+	 font-weight: bold;
+	 color: #fff; 
+ }
+ 
+ #headertext2 {
+	 padding-left:150px;	
+	 font-family: "Helvetica", "Arial", sans-serif;
+	 font-size: 50px;
+	 font-weight: bold;
+	 color: white; 
+ }
+ 
+ #container {
+	/*placeholder bg image*/
+	background-image: url('../img/demobackground.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 1430px;
+	height: 100%;
+	opacity: 5.0;
+	padding: 0px 0px 50px 0px;
+	border: 1px solid transparent;
+}
+
+	h1 {
+
+		font-family: "Helvetica", "Arial", sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		color: #FFF; 
+	 
+	 
+		 }
+	 
+	 h2 {
+	 
+		 font-family: "Helvetica", "Arial", sans-serif;
+		 font-size: 20px;
+		 font-weight: bold;
+		 color: #FFF; 
+	 
+	 }
+	 
+	 #header {
+		 border: 2px, solid, teal;
+		 padding: 5px;
+		 margin: 5px;
+	 }
+	 
+	 /* MENU STYLING */
+
+#menucontainer {
+	position: fixed; 
+	width: 600px;
+	height: 80px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	bottom: -30px;
+	display: block;
+	z-index: 1;
+	
+	
+}
+
+#menucontainer ul {
+	list-style: none;
+}
+
+#menulist {
+	margin: 0;
+	padding: 0;
+	bottom: 0px;
+	
+}
+
+.menuitem {
+	width: 100px;
+	height: 50px;
+	float: left;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+	background-color: white;
+	opacity: 0.4;
+	position: relative;
+
+}
+
+a {
+	color: #black;
+	text-decoration: none;
+}
+
+p {
+	padding: 10px 5px;
+	color: black;
+}
+
+.subtext {
+	padding-top: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+.glyphicon {
+	padding: 15px;
+}
+
+/* end menu styling */
+
